@@ -59,6 +59,9 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+
+  /* return palabras.join(' '); */
+
   var frase = '';
 
   for(var i = 0; i < palabras.length; i++){
@@ -76,13 +79,12 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  var existe = false;
   for (var i = 0; i < array.length; i++){
     if (array[i] === elemento){
-      existe = true;
+      return true;
     }
   }
-  return existe;
+  return false;
 }
 
 
@@ -114,7 +116,7 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  var masGrande = 0;
+  var masGrande = numeros[0];
   for (var i = 0; i < numeros.length; i++){
     if (numeros[i] > masGrande){
       masGrande = numeros[i];
