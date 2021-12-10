@@ -1,0 +1,67 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/17/04/b6/1704b6fdb211b14d83fba7dd786dbbb8.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 1920px 1080px;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 800px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+#titulo {
+    text-align: center;
+    color: #01ACC8;
+}
+
+#descripcionPersonal {
+    text-align: center;
+    color: #057380;
+}
+
+h2 {
+    text-align: center;
+    color: #01ACC8;
+}
+
+h3 {
+    text-align: center;
+    color: #035058;
+}
+
+#educacion {
+    text-align: center;
+    color: #057380;
+}
+
+#experienciasLaborales {
+    text-align: center;
+    color: #057380;
+}
+
+#skrills {
+    text-align: center;
+    color: #057380;
+}
+
+#hoobies {
+    text-align: center;
+    color: #057380;
+}
+
+#masDeMi {
+    text-align: center;
+    color: #057380;
+}
